@@ -498,7 +498,7 @@ body{
 	border: 1px solid #CECECE;
 }
 .footer-last_block{
-	margin: 80px 0;
+	margin: 40px 0;
 }
 .navigation_block *:not(:first-child){
 	margin-top: 50px;
@@ -598,9 +598,6 @@ body{
 @media screen and (max-width: 792px){
 .max_width{
 	max-width: 70%;
-}
-.footer{
-	margin-top: 0px;
 }
 .registration_block{
 	align-items: flex-start;
@@ -706,9 +703,6 @@ body{
 .email_block *:not(:first-child){
 	margin-top: 20px;
 }
-.networks_block{
-	margin-top: 0;
-}
 .question_block{
 	margin-top: -100px;
 	padding: 140px 0;
@@ -720,6 +714,9 @@ body{
 .creat{
 	font-size: 15px;
 }
+.footer_line{
+	margin-top: 40px;
+}
 }
 @media screen and (max-width: 415px){
 	.hero_text-block > *:not(:last-child){
@@ -729,7 +726,7 @@ body{
 	top: 900px;
 }
 .h4-text_block{
-	margin: 100px 10px;
+	margin: 150px 10px 0;
 }
 .circle{
 	width: 346px;
